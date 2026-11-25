@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.neonclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HeldItemRendererMixin",
+    "LivingEntityMixin",
+    "LivingEntityRendererMixin",
+    "LivingEntityRenderStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

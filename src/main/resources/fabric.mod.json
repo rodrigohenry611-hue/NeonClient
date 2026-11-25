@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "neonclient",
+  "version": "${version}",
+  "name": "Neon Client",
+  "description": "Client visual com cosméticos, view model e swing.",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.neonclient.NeonClient"]
+  },
+  "mixins": ["neonclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
